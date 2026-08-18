@@ -1,0 +1,18 @@
+# BESA-generated C++ repositories from which amstack generates installable
+# Spack package recipes.
+#
+# All Git tags are discovered automatically and added as package versions.
+# The main branch is always added as a development version. Additional branches
+# can be requested per repository:
+#
+# repositories:
+#   - url: https://github.com/ambhora/nola.git
+#     branches:
+#       - develop
+#       - release/next
+#
+# A repository named "nola" is expected to contain the BESA-generated
+# development package "nola-dev-env". amstack analyses that package together
+# with the BESA declarations in the repository and writes a new package recipe
+# for "nola" into the amstack Spack repository.
+repositories: []
