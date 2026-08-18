@@ -13,6 +13,8 @@ class Besa(PythonPackage):
 
     license("Apache-2.0")
 
+    version("main", branch="main", preferred=True)
+
     version(
         "0.1.0",
         sha256="7a8c0c1970050c90a58f1e8c97d67cd46e2dd691cda34f09a36a9baeffd5b29b",
